@@ -17,11 +17,14 @@ AIRTABLE_TABLE_ID=<your_table_id>
 AIRTABLE_TABLE_EMAIL_FIELD=Email
 ```
 
-Note:
-To get your API key, go to https://airtable.com/create/apikey
-To get your BASE_ID and your TABLE_ID, go to https://airtable.com/developers/web/api/introduction and select your base, then find the appropriate values.
-To get your EMAIL_FIELD, create a column in airtable with a name and use that name as the variable.
-
 4. Run `yarn dev` to start the dev server
 5. Enter an email into the form and submit
 6. Check your Airtable base to see the new record
+
+## Environment Variables
+
+To get your `API_KEY`, go to https://airtable.com/create/apikey
+
+To get your `BASE_ID` and your `TABLE_ID`, go to https://airtable.com/developers/web/api/introduction and select your base, then find the appropriate values.
+
+To get your `EMAIL_FIELD`, create a column in airtable with a name and use that name as the variable.
